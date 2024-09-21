@@ -6,6 +6,11 @@ I personally haven't seen much public work in this field, especially not anythin
 My intent is not to influence the cheating situation of a game in a negative way. But because of my experience in this field, i would argue that i can pretty accurately classify various types of information. 
 My project is not making use of any ground breaking technologies, and will not work on latest game build. If a cheater is skilled enough to update this project, then he will be able to make quick work of proton EAC, even without my help.
 
+# Features
+- **Aim enhancement:** Allows for advanced enhancement of aim, either through A.) an unorthodox method of manipulating aim with mouse as input device, and B.) a similar functionality for controller, but using the game's own aim assist.
+- **Visual enhancement:** Comes with a simple arrow key menu, ESP for players only (iirc), and some other minor stuff.
+- **Movement helpers:** Offers various movement assistance in form of auto-superglide, auto-bunnyhop (buggy), and maybe some other shit which i've forgot.
+
 # Components
 In terms of complexity, DrauseHook is laid out in a rather simplistic manner. Following components are included:
 - **loader:** it will act as a bootstrapper and initialize the cheat payload.
