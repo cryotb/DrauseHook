@@ -22,3 +22,7 @@ It is possible to customize injection to some extent. Currently, there are follo
 - **Analysis From Dump**  |  --analysis-from-dump  | does analysis for offsets finding on a dump file, instead of pulling it directly from mem.
 - **Custom Payload Path**  |  --custom-payload-path  |  allows one to specify a custom cheat payload path.
 - **Use Unsafe Memory** (UNSAFE) |  --use-unsafe-memory  |  will allocate new executable memory and map cheat payload into that.
+
+You can pass any of these as command line parameters when launching the loader. Example: `./loader --debug-sigs`
+
+
