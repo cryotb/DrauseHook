@@ -18,6 +18,9 @@ That being said, it does have a great amount of detection vectors covered alread
 1. **Stealth VMT-Hooking:** By placing our reallocated table within the bounds of R5Apex.exe, we are evading their bounds check. However, they could start restricting it to .rdata instead of whole module. Then you'd be fucked.
 2. **Stealth Control Flow:** By tampering with their stack-walking algorithm in a stealth manner, we are able to completely disable it. Additionally, i have chosen to rely on hand written ASM trampolines for my hooks. This allows us to avoid having to invoke the original with a `CALL` instruction, which would make us visible to any external stackwalks, for example within original. Or something that it calls.
 
+Obviously, there are still issues you'll need to take care of. <br>
+A good start would be finding a better place to map than inside the `.data` region of `Compstui.dll`
+
 # Features
 - **Aim enhancement:** Allows for advanced enhancement of aim, either through A.) an unorthodox method of manipulating aim with mouse as input device, and B.) a similar functionality for controller, but using the game's own aim assist.
 - **Visual enhancement:** Comes with a simple arrow key menu, ESP for players only (iirc), and some other minor stuff.
