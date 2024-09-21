@@ -2,6 +2,12 @@
 I used to get pretty hyped when respawn had announced their decision of enabling proton support. My intrinsic motivation has caused me to spend an excessive amount of time working on this project. I am not just publishing this because i feel burnt out. But also because it certainly may be of use for someone out there.
 I personally haven't seen much public work in this field, especially not anything that goes too much beyond surface level. Writing cheats for anticheat protected games requires you to think creatively. If you proceed at this important step by doing what everyone else does, you are toast without even having entered the battle yet.
 
+# Showcase
+- https://www.youtube.com/watch?v=uA9x9bFkLGk
+- https://www.youtube.com/watch?v=rIjyrj1-jKA
+- https://www.youtube.com/watch?v=rJFViLL85Qk
+- https://www.youtube.com/watch?v=hdSVMwF9Njs
+
 # Status
 My intent is not to influence the cheating situation of a game in a negative way. But because of my experience in this field, i would argue that i can pretty accurately classify various types of information. 
 My project is not making use of any ground breaking technologies, and will not work on latest game build. If a cheater is skilled enough to update this project, then he will be able to make quick work of proton EAC, even without my help.
