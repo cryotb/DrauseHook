@@ -12,13 +12,13 @@ In terms of complexity, DrauseHook is laid out in a rather simplistic manner. Fo
 - **payload:** will be loaded into the game's context, contains actual cheat functionality.
 - **backend:** will not be shipped in public release, but basically acts as the counterpart that is (normally) required for successful injection.
 
-You do not have to get in panic because of backend not being released, offline mode was a feature already, (easier debugging).
+You do not have to get in panic because of backend not being released, offline mode was a feature already!
 
 # Configuration
 It is possible to customize injection to some extent. Currently, there are following options available:
 - **Payload Debugging** (DEPRECATED) | --debug-payload | reads from a designated memory region within the active payload and outputs diagnostic data for cheat payload in console.
 - **Debug Signatures** | --debug-sigs |
-- **Dump Game Image**  | --dump-game-image  |
-- **Analysis From Dump**  |  --analysis-from-dump  |
-- **Custom Payload Path**  |  --custom-payload-path  |
-- **Use Unsafe Memory**  |  --use-unsafe-memory  |
+- **Dump Game Image**  | --dump-game-image  | creates an in-memory dump of the game, in this case apex legends, and saves it onto your disk.
+- **Analysis From Dump**  |  --analysis-from-dump  | does analysis for offsets finding on a dump file, instead of pulling it directly from mem.
+- **Custom Payload Path**  |  --custom-payload-path  |  allows one to specify a custom cheat payload path.
+- **Use Unsafe Memory** (UNSAFE) |  --use-unsafe-memory  |  will allocate new executable memory and map cheat payload into that.
