@@ -1,4 +1,4 @@
-**WARNING:** I currently am not able to dual boot into my linux install, because of an issue with my boot drive. I also don't have any time for trying to map my linux drive from within windows, i know it's possible though. Once i regain access to my linux OS, i will upload the cheat payload component. 
+**WARNING:** I currently am not able to dual boot into my linux install, because of an issue with my boot drive. I also don't have any time for trying to map my linux drive from within windows, i know it's possible though. Once i regain access to my linux install, i will upload the cheat payload component. 
 
 # Intro
 I used to get pretty hyped when respawn had announced their decision of enabling proton support. My intrinsic motivation has caused me to spend an excessive amount of time working on this project. I am not just publishing this because i feel burnt out. But also because it certainly may be of use for someone out there.
@@ -13,6 +13,10 @@ I personally haven't seen much public work in this field, especially not anythin
 # Status
 My intent is not to influence the cheating situation of a game in a negative way. But because of my experience in this field, i would argue that i can pretty accurately classify various types of information. 
 My project is not making use of any ground breaking technologies, and will not work on latest game build. If a cheater is skilled enough to update this project, then he will be able to make quick work of proton EAC, even without my help.
+
+That being said, it does have a great amount of detection vectors covered already. Here is an overview:
+1. **Stealth VMT-Hooking:** By placing our reallocated table within the bounds of R5Apex.exe, we are evading their bounds check. However, they could start restricting it to .rdata instead of whole module. Then you'd be fucked.
+2. **Stealth Control Flow:** By tampering with their stack-walking algorithm in a stealth manner, we are able to completely disable it. Additionally, i have chosen to rely on hand written ASM trampolines for my hooks. This allows us to avoid having to invoke the original with a `CALL` instruction, which would make us visible to any external stackwalks, for example within original. Or something that it calls.
 
 # Features
 - **Aim enhancement:** Allows for advanced enhancement of aim, either through A.) an unorthodox method of manipulating aim with mouse as input device, and B.) a similar functionality for controller, but using the game's own aim assist.
