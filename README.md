@@ -1,3 +1,5 @@
+**WARNING:** I currently am not able to dual boot into my linux install, because of an issue with my boot drive. I also don't have any time for trying to map my linux drive from within windows, i know it's possible though. Once i regain access to my linux OS, i will upload the cheat payload component. 
+
 # Intro
 I used to get pretty hyped when respawn had announced their decision of enabling proton support. My intrinsic motivation has caused me to spend an excessive amount of time working on this project. I am not just publishing this because i feel burnt out. But also because it certainly may be of use for someone out there.
 I personally haven't seen much public work in this field, especially not anything that goes too much beyond surface level. Writing cheats for anticheat protected games requires you to think creatively. If you proceed at this important step by doing what everyone else does, you are toast without even having entered the battle yet.
