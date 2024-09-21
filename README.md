@@ -11,6 +11,8 @@ My project is not making use of any ground breaking technologies, and will not w
 - **Visual enhancement:** Comes with a simple arrow key menu, ESP for players only (iirc), and some other minor stuff.
 - **Movement helpers:** Offers various movement assistance in form of auto-superglide, auto-bunnyhop (buggy), and maybe some other shit which i've forgot.
 
+You can also take a look at the source code i fyou want a more complete list of available features.
+
 # Components
 In terms of complexity, DrauseHook is laid out in a rather simplistic manner. Following components are included:
 - **loader:** it will act as a bootstrapper and initialize the cheat payload.
@@ -29,5 +31,4 @@ It is possible to customize injection to some extent. Currently, there are follo
 - **Use Unsafe Memory** (UNSAFE) |  --use-unsafe-memory  |  will allocate new executable memory and map cheat payload into that.
 
 You can pass any of these as command line parameters when launching the loader. Example: `./loader --debug-sigs`
-
 
