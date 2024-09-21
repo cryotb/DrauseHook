@@ -11,7 +11,7 @@ My project is not making use of any ground breaking technologies, and will not w
 - **Visual enhancement:** Comes with a simple arrow key menu, ESP for players only (iirc), and some other minor stuff.
 - **Movement helpers:** Offers various movement assistance in form of auto-superglide, auto-bunnyhop (buggy), and maybe some other shit which i've forgot.
 
-You can also take a look at the source code i fyou want a more complete list of available features.
+You can also take a look at the source code if you want a more complete list of available features.
 
 # Components
 In terms of complexity, DrauseHook is laid out in a rather simplistic manner. Following components are included:
